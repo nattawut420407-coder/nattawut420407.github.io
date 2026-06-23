@@ -1,0 +1,811 @@
+[
+  {
+    "id": "cafe_001",
+    "name": "The Teal Space",
+    "nameEn": "The Teal Space",
+    "provinceId": "bangkok",
+    "district": "สีลม",
+    "address": "123 ถนนสีลม แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500",
+    "lat": 13.7286,
+    "lng": 100.5278,
+    "styleId": "modern",
+    "openTime": "07:00",
+    "closeTime": "20:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri"],
+    "images": ["cafe_001_1.jpg", "cafe_001_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-01",
+    "description": "คาเฟ่สไตล์โมเดิร์นกลางสีลม บรรยากาศเงียบสงบ เหมาะสำหรับทำงานและนัดประชุม มีเมนูกาแฟหลากหลายและขนมอบสดใหม่ทุกวัน",
+    "priceLevel": "฿฿",
+    "phone": "02-000-0001",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_001_01", "name": "Espresso", "price": 80, "isAvailable": true },
+          { "id": "mi_001_02", "name": "Americano", "price": 90, "isAvailable": true },
+          { "id": "mi_001_03", "name": "Latte", "price": 110, "isAvailable": true },
+          { "id": "mi_001_04", "name": "Cold Brew", "price": 120, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_001_05", "name": "Croissant", "price": 65, "isAvailable": true },
+          { "id": "mi_001_06", "name": "Pain au Chocolat", "price": 75, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["work-friendly", "quiet", "specialty-coffee"],
+    "social": { "instagram": "@thetealspace" },
+    "isFeatured": true
+  },
+  {
+    "id": "cafe_002",
+    "name": "Minimal Brew",
+    "provinceId": "bangkok",
+    "district": "ทองหล่อ",
+    "address": "456 ซอยทองหล่อ 13 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
+    "lat": 13.7310,
+    "lng": 100.5840,
+    "styleId": "minimal",
+    "openTime": "08:00",
+    "closeTime": "18:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+    "images": ["cafe_002_1.jpg"],
+    "status": "open",
+    "lastVerified": "2026-05-20",
+    "amenities": [],
+    "paymentMethods": ["cash"],
+    "menu": [],
+    "tags": [],
+    "social": {},
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_003",
+    "name": "Midnight Garden",
+    "nameEn": "Midnight Garden",
+    "provinceId": "bangkok",
+    "district": "อารีย์",
+    "address": "789 ซอยอารีย์ 4 แขวงสามเสนใน เขตพญาไท กรุงเทพมหานคร 10400",
+    "lat": 13.7742,
+    "lng": 100.5485,
+    "styleId": "garden",
+    "openTime": "18:00",
+    "closeTime": "00:00",
+    "openDays": ["wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_003_1.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-10",
+    "description": "คาเฟ่สวนสวยเปิดช่วงเย็นถึงเที่ยงคืน บรรยากาศโรแมนติก ไฟแฟรี่สวยงาม",
+    "priceLevel": "฿฿",
+    "amenities": ["outdoor_seating", "pet_friendly", "restroom"],
+    "paymentMethods": ["cash", "promptpay"],
+    "menu": [
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_003_01", "name": "Thai Milk Tea", "price": 85, "isAvailable": true },
+          { "id": "mi_003_02", "name": "Matcha Latte", "price": 95, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["romantic", "outdoor", "evening"],
+    "social": { "instagram": "@midnightgarden.bkk" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_004",
+    "name": "Vintage Corner",
+    "nameEn": "Vintage Corner",
+    "provinceId": "bangkok",
+    "district": "สยาม",
+    "address": "321 ถนนพระราม 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330",
+    "lat": 13.7457,
+    "lng": 100.5343,
+    "styleId": "vintage",
+    "openTime": "09:00",
+    "closeTime": "21:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_004_1.jpg"],
+    "status": "temporarily_closed",
+    "lastVerified": "2026-06-20",
+    "description": "คาเฟ่วินเทจสุดชิคในย่านสยาม ตกแต่งด้วยของเก่าหายากและเฟอร์นิเจอร์แอนทีค ปิดปรับปรุงชั่วคราว",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "air_conditioned", "restroom", "parking"],
+    "paymentMethods": ["cash", "promptpay", "truemoney"],
+    "menu": [],
+    "tags": ["vintage", "antique", "instagram-worthy"],
+    "social": { "instagram": "@vintage.corner.bkk", "facebook": "VintageCornerBKK" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_005",
+    "name": "The Specialty Roasters",
+    "nameEn": "The Specialty Roasters",
+    "provinceId": "bangkok",
+    "district": "สุขุมวิท",
+    "address": "999/9 อาคารสุขุมวิท ทาวเวอร์ ชั้น 1 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110",
+    "lat": 13.7231,
+    "lng": 100.5617,
+    "styleId": "specialty",
+    "openTime": "06:30",
+    "closeTime": "21:30",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_005_1.jpg", "cafe_005_2.jpg", "cafe_005_3.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-15",
+    "description": "ร้านกาแฟ Specialty ที่คัดสรรเมล็ดกาแฟคุณภาพสูงจากทั่วโลก Single Origin จากเอธิโอเปีย เคนยา โคลอมเบีย และไทย บรรยากาศกว้างขวาง รองรับทั้งการทำงานและการพักผ่อน",
+    "priceLevel": "฿฿฿",
+    "phone": "02-000-0005",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom", "parking", "kid_friendly"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard", "amex", "jcb"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_005_01", "name": "Single Origin Espresso", "price": 120, "isAvailable": true },
+          { "id": "mi_005_02", "name": "Pour Over V60", "price": 150, "isAvailable": true },
+          { "id": "mi_005_03", "name": "Cold Brew 24Hr", "price": 145, "isAvailable": true },
+          { "id": "mi_005_04", "name": "Flat White", "price": 130, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_005_05", "name": "Matcha Latte", "price": 135, "isAvailable": true },
+          { "id": "mi_005_06", "name": "Hojicha Latte", "price": 135, "isAvailable": false },
+          { "id": "mi_005_07", "name": "Fresh Orange Juice", "price": 110, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "cake",
+        "items": [
+          { "id": "mi_005_08", "name": "Basque Burnt Cheesecake", "price": 180, "isAvailable": true },
+          { "id": "mi_005_09", "name": "Tiramisu", "price": 160, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "food",
+        "items": [
+          { "id": "mi_005_10", "name": "Avocado Toast", "price": 195, "isAvailable": true },
+          { "id": "mi_005_11", "name": "Granola Bowl", "price": 165, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["specialty-coffee", "single-origin", "third-wave", "work-friendly"],
+    "social": {
+      "instagram": "@specialtyroasters.bkk",
+      "facebook": "SpecialtyRoastersBKK",
+      "line": "@specialtyroasters"
+    },
+    "isFeatured": true
+  },
+  {
+    "id": "cafe_006",
+    "name": "Iron Press",
+    "nameEn": "Iron Press",
+    "provinceId": "bangkok",
+    "district": "ลาดพร้าว",
+    "address": "12 ซอยลาดพร้าว 35 แขวงจันทรเกษม เขตจตุจักร กรุงเทพมหานคร 10900",
+    "lat": 13.8150,
+    "lng": 100.5720,
+    "styleId": "industrial",
+    "openTime": "07:00",
+    "closeTime": "19:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri"],
+    "images": ["cafe_006_1.jpg", "cafe_006_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-05",
+    "description": "คาเฟ่สไตล์อินดัสเทรียลในย่านลาดพร้าว ตกแต่งด้วยโลหะและปูนเปลือย บรรยากาศเท่เหมาะสำหรับคนทำงาน มีเมนูกาแฟอย่างดีและแซนด์วิชทำสด",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash", "promptpay", "visa"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_006_01", "name": "Drip Coffee", "price": 75, "isAvailable": true },
+          { "id": "mi_006_02", "name": "Cappuccino", "price": 100, "isAvailable": true },
+          { "id": "mi_006_03", "name": "Iced Americano", "price": 90, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "food",
+        "items": [
+          { "id": "mi_006_04", "name": "Club Sandwich", "price": 145, "isAvailable": true },
+          { "id": "mi_006_05", "name": "Egg & Ham Toast", "price": 120, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["work-friendly", "industrial", "lunch"],
+    "social": { "instagram": "@ironpress.bkk" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_007",
+    "name": "บ้านชา",
+    "nameEn": "Baan Cha",
+    "provinceId": "bangkok",
+    "district": "บางลำพู",
+    "address": "88 ถนนพระอาทิตย์ แขวงชนะสงคราม เขตพระนคร กรุงเทพมหานคร 10200",
+    "lat": 13.7620,
+    "lng": 100.4980,
+    "styleId": "cozy",
+    "openTime": "09:00",
+    "closeTime": "20:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_007_1.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-12",
+    "description": "คาเฟ่บ้านๆ อบอุ่นริมแม่น้ำเจ้าพระยา บรรยากาศผ่อนคลายเหมาะนั่งชิล มีชาและกาแฟหลายชนิด ขนมไทยทำสด",
+    "priceLevel": "฿",
+    "amenities": ["wifi", "air_conditioned", "restroom", "outdoor_seating"],
+    "paymentMethods": ["cash", "promptpay"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_007_01", "name": "กาแฟโบราณ", "price": 55, "isAvailable": true },
+          { "id": "mi_007_02", "name": "Latte", "price": 85, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_007_03", "name": "ขนมปังปิ้งเนยหวาน", "price": 45, "isAvailable": true },
+          { "id": "mi_007_04", "name": "วาฟเฟิลน้ำผึ้ง", "price": 75, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["cozy", "riverside", "local"],
+    "social": { "instagram": "@baancha.bkk" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_008",
+    "name": "Gallery Grounds",
+    "nameEn": "Gallery Grounds",
+    "provinceId": "bangkok",
+    "district": "เจริญกรุง",
+    "address": "44 ถนนเจริญกรุง 28 แขวงบางรัก เขตบางรัก กรุงเทพมหานคร 10500",
+    "lat": 13.7260,
+    "lng": 100.5050,
+    "styleId": "artsy",
+    "openTime": "10:00",
+    "closeTime": "21:00",
+    "openDays": ["tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_008_1.jpg", "cafe_008_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-18",
+    "description": "คาเฟ่ผสมแกลเลอรี่ศิลปะในย่านเจริญกรุง จัดแสดงผลงานศิลปินรุ่นใหม่หมุนเวียนทุกเดือน บรรยากาศสร้างสรรค์ เมนูกาแฟและเค้กระดับพรีเมียม",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_008_01", "name": "House Blend Drip", "price": 90, "isAvailable": true },
+          { "id": "mi_008_02", "name": "Oat Milk Latte", "price": 120, "isAvailable": true },
+          { "id": "mi_008_03", "name": "Iced Mocha", "price": 115, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "cake",
+        "items": [
+          { "id": "mi_008_04", "name": "Carrot Cake", "price": 130, "isAvailable": true },
+          { "id": "mi_008_05", "name": "Lemon Tart", "price": 120, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_008_06", "name": "Hibiscus Soda", "price": 95, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["art", "creative", "instagram-worthy"],
+    "social": { "instagram": "@gallerygrounds.bkk" },
+    "isFeatured": true
+  },
+  {
+    "id": "cafe_009",
+    "name": "สวนลับ",
+    "nameEn": "Secret Garden Cafe",
+    "provinceId": "bangkok",
+    "district": "สาทร",
+    "address": "77 ซอยสาทร 10 แขวงยานนาวา เขตสาทร กรุงเทพมหานคร 10120",
+    "lat": 13.7240,
+    "lng": 100.5260,
+    "styleId": "garden",
+    "openTime": "10:00",
+    "closeTime": "20:00",
+    "openDays": ["wed", "thu", "fri", "sat", "sun", "mon"],
+    "images": ["cafe_009_1.jpg", "cafe_009_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-08",
+    "description": "สวนลับกลางเมือง ล้อมรอบด้วยต้นไม้และดอกไม้ อากาศดี เหมาะสำหรับมานั่งพักผ่อนและถ่ายรูป",
+    "priceLevel": "฿฿",
+    "amenities": ["outdoor_seating", "pet_friendly", "restroom", "wifi"],
+    "paymentMethods": ["cash", "promptpay"],
+    "menu": [
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_009_01", "name": "Butterfly Pea Lemonade", "price": 90, "isAvailable": true },
+          { "id": "mi_009_02", "name": "Coconut Smoothie", "price": 95, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "cake",
+        "items": [
+          { "id": "mi_009_03", "name": "Earl Grey Cake", "price": 125, "isAvailable": true },
+          { "id": "mi_009_04", "name": "Mango Cheesecake", "price": 140, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["garden", "outdoor", "instagram-worthy", "pet-friendly"],
+    "social": { "instagram": "@suanlub.bkk" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_010",
+    "name": "District Coffee",
+    "nameEn": "District Coffee",
+    "provinceId": "bangkok",
+    "district": "อโศก",
+    "address": "158 ถนนสุขุมวิท 21 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
+    "lat": 13.7360,
+    "lng": 100.5610,
+    "styleId": "modern",
+    "openTime": "06:30",
+    "closeTime": "21:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+    "images": ["cafe_010_1.jpg", "cafe_010_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-20",
+    "description": "คาเฟ่สไตล์โมเดิร์นกลางย่านธุรกิจอโศก บริการเร็ว เมนูครบ เหมาะสำหรับมื้อเช้าก่อนเข้าออฟฟิศและนัดพบทางธุรกิจ",
+    "priceLevel": "฿฿",
+    "phone": "02-000-0010",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom", "parking"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_010_01", "name": "Espresso", "price": 85, "isAvailable": true },
+          { "id": "mi_010_02", "name": "Latte", "price": 110, "isAvailable": true },
+          { "id": "mi_010_03", "name": "Cold Brew", "price": 120, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "food",
+        "items": [
+          { "id": "mi_010_04", "name": "Egg Sandwich", "price": 115, "isAvailable": true },
+          { "id": "mi_010_05", "name": "BLT Wrap", "price": 135, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_010_06", "name": "Almond Croissant", "price": 80, "isAvailable": true },
+          { "id": "mi_010_07", "name": "Banana Bread", "price": 70, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["work-friendly", "breakfast", "business-district"],
+    "social": { "instagram": "@districtcoffee.bkk" },
+    "isFeatured": true
+  },
+  {
+    "id": "cafe_011",
+    "name": "Origin Lab",
+    "nameEn": "Origin Lab",
+    "provinceId": "bangkok",
+    "district": "พหลโยธิน",
+    "address": "201 ถนนพหลโยธิน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900",
+    "lat": 13.7990,
+    "lng": 100.5510,
+    "styleId": "specialty",
+    "openTime": "08:00",
+    "closeTime": "18:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+    "images": ["cafe_011_1.jpg", "cafe_011_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-14",
+    "description": "Lab-style specialty coffee roastery มุ่งเน้นความแม่นยำในการสกัดกาแฟ ใช้เมล็ดไทยจากภาคเหนือเป็นหลัก เปิดให้ชมกระบวนการคั่วสดในร้าน",
+    "priceLevel": "฿฿฿",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash", "promptpay", "visa"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_011_01", "name": "Thai Single Origin", "price": 140, "isAvailable": true },
+          { "id": "mi_011_02", "name": "AeroPress", "price": 130, "isAvailable": true },
+          { "id": "mi_011_03", "name": "Chemex Pour Over", "price": 160, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_011_04", "name": "Sourdough Toast", "price": 85, "isAvailable": true },
+          { "id": "mi_011_05", "name": "Olive Focaccia", "price": 95, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["specialty-coffee", "single-origin", "roastery", "third-wave"],
+    "social": { "instagram": "@originlab.bkk", "facebook": "OriginLabBKK" },
+    "isFeatured": true
+  },
+  {
+    "id": "cafe_012",
+    "name": "Retro House",
+    "nameEn": "Retro House",
+    "provinceId": "bangkok",
+    "district": "รัชดาภิเษก",
+    "address": "34 ถนนรัชดาภิเษก แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400",
+    "lat": 13.7580,
+    "lng": 100.5690,
+    "styleId": "vintage",
+    "openTime": "10:00",
+    "closeTime": "21:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_012_1.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-03",
+    "description": "คาเฟ่วินเทจในย่านรัชดา ตกแต่งด้วยของสะสมยุค 70-80s ไวนิลเพลง กล้องฟิล์ม บรรยากาศย้อนยุคอบอุ่น",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash", "promptpay", "truemoney"],
+    "menu": [
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_012_01", "name": "Thai Iced Tea", "price": 70, "isAvailable": true },
+          { "id": "mi_012_02", "name": "Ovaltine Frappe", "price": 90, "isAvailable": true },
+          { "id": "mi_012_04", "name": "Milo Dinosaur", "price": 85, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_012_03", "name": "Toast with Coconut Jam", "price": 55, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["vintage", "retro", "nostalgic"],
+    "social": { "instagram": "@retrohouse.ratchada" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_013",
+    "name": "The Warm Cup",
+    "nameEn": "The Warm Cup",
+    "provinceId": "bangkok",
+    "district": "เอกมัย",
+    "address": "62 ซอยเอกมัย 4 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
+    "lat": 13.7170,
+    "lng": 100.5820,
+    "styleId": "cozy",
+    "openTime": "08:30",
+    "closeTime": "19:30",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_013_1.jpg", "cafe_013_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-17",
+    "description": "คาเฟ่อบอุ่นในซอยเงียบของเอกมัย ห้องเล็กกะทัดรัด ตกแต่งด้วยไม้และผ้าลายดอก เหมาะนั่งอ่านหนังสือและพักผ่อน",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "air_conditioned", "restroom", "takeaway"],
+    "paymentMethods": ["cash", "promptpay"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_013_01", "name": "House Latte", "price": 100, "isAvailable": true },
+          { "id": "mi_013_02", "name": "Dirty", "price": 110, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_013_03", "name": "Cinnamon Roll", "price": 80, "isAvailable": true },
+          { "id": "mi_013_04", "name": "Cookie Butter Scone", "price": 75, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["cozy", "quiet", "neighborhood"],
+    "social": { "instagram": "@thewarmcup.ekkamai" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_014",
+    "name": "Canvas Café",
+    "nameEn": "Canvas Cafe",
+    "provinceId": "bangkok",
+    "district": "ท่าพระจันทร์",
+    "address": "19 ถนนมหาราช แขวงพระบรมมหาราชวัง เขตพระนคร กรุงเทพมหานคร 10200",
+    "lat": 13.7530,
+    "lng": 100.4900,
+    "styleId": "artsy",
+    "openTime": "09:00",
+    "closeTime": "18:00",
+    "openDays": ["tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_014_1.jpg", "cafe_014_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-11",
+    "description": "คาเฟ่ศิลปะใกล้ท่าพระจันทร์ จัดแสดงภาพวาดและงานฝีมือของนักศึกษาศิลปะ มีเวิร์กช็อปศิลปะทุกสุดสัปดาห์",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "air_conditioned", "restroom", "outdoor_seating"],
+    "paymentMethods": ["cash", "promptpay", "visa"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_014_01", "name": "Filter Coffee", "price": 80, "isAvailable": true },
+          { "id": "mi_014_02", "name": "Iced Latte", "price": 100, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_014_03", "name": "Rose Soda", "price": 85, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "cake",
+        "items": [
+          { "id": "mi_014_04", "name": "Matcha Opera Cake", "price": 135, "isAvailable": true },
+          { "id": "mi_014_05", "name": "Strawberry Shortcake", "price": 125, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["art", "creative", "old-town"],
+    "social": { "instagram": "@canvascafe.bkk" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_015",
+    "name": "Warehouse Nine",
+    "nameEn": "Warehouse Nine",
+    "provinceId": "bangkok",
+    "district": "พระราม 9",
+    "address": "9 ถนนพระราม 9 แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310",
+    "lat": 13.7580,
+    "lng": 100.5790,
+    "styleId": "industrial",
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+    "images": ["cafe_015_1.jpg", "cafe_015_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-19",
+    "description": "โกดังเก่าดัดแปลงเป็นคาเฟ่สุดเท่ย่านพระราม 9 เพดานสูง ท่อเหล็กโชว์ บรรยากาศแบบ Brooklyn Warehouse มีพื้นที่นั่งเยอะและแสงสว่างดี",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom", "parking"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_015_01", "name": "Black Coffee", "price": 75, "isAvailable": true },
+          { "id": "mi_015_02", "name": "Caramel Macchiato", "price": 120, "isAvailable": true },
+          { "id": "mi_015_03", "name": "Nitro Cold Brew", "price": 140, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "food",
+        "items": [
+          { "id": "mi_015_04", "name": "Smash Burger", "price": 185, "isAvailable": true },
+          { "id": "mi_015_05", "name": "Mac & Cheese", "price": 155, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_015_06", "name": "Craft Lemonade", "price": 90, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["industrial", "spacious", "instagram-worthy", "work-friendly"],
+    "social": { "instagram": "@warehousenine.bkk", "facebook": "WarehouseNineBKK" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_016",
+    "name": "Blanc",
+    "nameEn": "Blanc",
+    "provinceId": "bangkok",
+    "district": "เยาวราช",
+    "address": "55 ถนนเยาวราช แขวงสัมพันธวงศ์ เขตสัมพันธวงศ์ กรุงเทพมหานคร 10100",
+    "lat": 13.7400,
+    "lng": 100.5070,
+    "styleId": "minimal",
+    "openTime": "09:00",
+    "closeTime": "18:00",
+    "openDays": ["wed", "thu", "fri", "sat", "sun", "mon"],
+    "images": ["cafe_016_1.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-09",
+    "description": "คาเฟ่มินิมัลขาวสะอาดกลางเยาวราช พื้นที่เล็กกะทัดรัด เน้นกาแฟและชาคุณภาพดี ไม่มีเสียงดัง เหมาะนั่งเงียบๆ",
+    "priceLevel": "฿",
+    "amenities": ["air_conditioned", "restroom"],
+    "paymentMethods": ["cash"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_016_01", "name": "Manual Brew", "price": 80, "isAvailable": true },
+          { "id": "mi_016_02", "name": "Piccolo Latte", "price": 90, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_016_03", "name": "Jasmine Green Tea", "price": 65, "isAvailable": true },
+          { "id": "mi_016_04", "name": "Oolong Pot", "price": 90, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["minimal", "quiet", "tea"],
+    "social": { "instagram": "@blanc.yaowarat" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_017",
+    "name": "Night Bloom",
+    "nameEn": "Night Bloom",
+    "provinceId": "bangkok",
+    "district": "อ่อนนุช",
+    "address": "103 ซอยอ่อนนุช 17 แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร 10250",
+    "lat": 13.6870,
+    "lng": 100.6070,
+    "styleId": "garden",
+    "openTime": "18:00",
+    "closeTime": "00:00",
+    "openDays": ["fri", "sat", "sun"],
+    "images": ["cafe_017_1.jpg", "cafe_017_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-22",
+    "description": "สวนกลางคืนเปิดแค่วันหยุด บรรยากาศเงียบสงบใต้ดาว ไฟแฟรี่สวยงาม มีพื้นที่นั่งกลางแจ้งและในเรือนกระจก เมนูเครื่องดื่มและขนมหวาน",
+    "priceLevel": "฿฿",
+    "amenities": ["outdoor_seating", "pet_friendly", "restroom"],
+    "paymentMethods": ["cash", "promptpay"],
+    "menu": [
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_017_01", "name": "Starlight Lemonade", "price": 95, "isAvailable": true },
+          { "id": "mi_017_02", "name": "Lavender Tonic", "price": 100, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "dessert",
+        "items": [
+          { "id": "mi_017_03", "name": "Panna Cotta", "price": 115, "isAvailable": true },
+          { "id": "mi_017_04", "name": "Mochi Ice Cream (3 pcs)", "price": 130, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["romantic", "outdoor", "evening", "weekend"],
+    "social": { "instagram": "@nightbloom.onnut" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_018",
+    "name": "The Standard Brew",
+    "nameEn": "The Standard Brew",
+    "provinceId": "bangkok",
+    "district": "สาทร",
+    "address": "222 ถนนสาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500",
+    "lat": 13.7180,
+    "lng": 100.5290,
+    "styleId": "modern",
+    "openTime": "07:00",
+    "closeTime": "21:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+    "images": ["cafe_018_1.jpg", "cafe_018_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-21",
+    "description": "คาเฟ่สไตล์โมเดิร์นเรียบหรูในย่านสาทร เปิดบริการตั้งแต่เช้าตรู่ เหมาะสำหรับมื้อเช้าก่อนประชุม เมนูครบ กาแฟดี อาหารเช้าสดใหม่",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom", "parking", "kid_friendly"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_018_01", "name": "Signature Blend", "price": 95, "isAvailable": true },
+          { "id": "mi_018_02", "name": "Oat Latte", "price": 120, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "food",
+        "items": [
+          { "id": "mi_018_03", "name": "Full Breakfast Set", "price": 250, "isAvailable": true },
+          { "id": "mi_018_04", "name": "Smoked Salmon Bagel", "price": 195, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "bakery",
+        "items": [
+          { "id": "mi_018_05", "name": "Kouign-Amann", "price": 85, "isAvailable": true },
+          { "id": "mi_018_06", "name": "Seasonal Danish", "price": 90, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["work-friendly", "breakfast", "business-district", "kid-friendly"],
+    "social": { "instagram": "@thestandard.sathorn", "facebook": "TheStandardBrewBKK" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_019",
+    "name": "Bean & Bar",
+    "nameEn": "Bean & Bar",
+    "provinceId": "bangkok",
+    "district": "พร้อมพงษ์",
+    "address": "48 ซอยสุขุมวิท 39 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
+    "lat": 13.7300,
+    "lng": 100.5710,
+    "styleId": "specialty",
+    "openTime": "07:30",
+    "closeTime": "19:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+    "images": ["cafe_019_1.jpg", "cafe_019_2.jpg"],
+    "status": "open",
+    "lastVerified": "2026-06-16",
+    "description": "Specialty coffee bar เน้นกาแฟ filter และ espresso based เกรดพรีเมียม คัดสรรเมล็ดจาก micro-roaster ไทยและต่างประเทศ บรรยากาศสงบเหมาะทำงาน",
+    "priceLevel": "฿฿฿",
+    "amenities": ["wifi", "power_outlet", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash", "promptpay", "visa", "mastercard"],
+    "menu": [
+      {
+        "category": "coffee",
+        "items": [
+          { "id": "mi_019_01", "name": "Seasonal Filter", "price": 130, "isAvailable": true },
+          { "id": "mi_019_02", "name": "Cortado", "price": 110, "isAvailable": true },
+          { "id": "mi_019_03", "name": "Iced Black", "price": 100, "isAvailable": true }
+        ]
+      },
+      {
+        "category": "drinks",
+        "items": [
+          { "id": "mi_019_04", "name": "Cold Hojicha", "price": 115, "isAvailable": true },
+          { "id": "mi_019_05", "name": "Sparkling Water", "price": 50, "isAvailable": true }
+        ]
+      }
+    ],
+    "tags": ["specialty-coffee", "third-wave", "quiet", "work-friendly"],
+    "social": { "instagram": "@beanandbar.bkk" },
+    "isFeatured": false
+  },
+  {
+    "id": "cafe_020",
+    "name": "The Press Room",
+    "nameEn": "The Press Room",
+    "provinceId": "bangkok",
+    "district": "ปิ่นเกล้า",
+    "address": "5 ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร 10700",
+    "lat": 13.7690,
+    "lng": 100.4730,
+    "styleId": "industrial",
+    "openTime": "09:00",
+    "closeTime": "20:00",
+    "openDays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+    "images": ["cafe_020_1.jpg"],
+    "status": "closed",
+    "lastVerified": "2026-05-01",
+    "description": "คาเฟ่อินดัสเทรียลฝั่งธนบุรี ปิดกิจการถาวรแล้ว",
+    "priceLevel": "฿฿",
+    "amenities": ["wifi", "air_conditioned", "restroom"],
+    "paymentMethods": ["cash"],
+    "menu": [],
+    "tags": ["industrial"],
+    "social": {},
+    "isFeatured": false
+  }
+]

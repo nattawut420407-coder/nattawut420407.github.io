@@ -1,0 +1,10 @@
+[
+  { "id": "modern",     "labelTh": "โมเดิร์น",      "labelEn": "Modern",     "icon": "architecture" },
+  { "id": "minimal",    "labelTh": "มินิมัล",        "labelEn": "Minimal",    "icon": "crop_square" },
+  { "id": "vintage",    "labelTh": "วินเทจ",         "labelEn": "Vintage",    "icon": "watch" },
+  { "id": "industrial", "labelTh": "อินดัสเทรียล",  "labelEn": "Industrial", "icon": "settings" },
+  { "id": "garden",     "labelTh": "สวน",            "labelEn": "Garden",     "icon": "nature" },
+  { "id": "cozy",       "labelTh": "โคซี่",          "labelEn": "Cozy",       "icon": "weekend" },
+  { "id": "artsy",      "labelTh": "อาร์ตซี่",       "labelEn": "Artsy",      "icon": "palette" },
+  { "id": "specialty",  "labelTh": "สเปเชียลตี้",   "labelEn": "Specialty",  "icon": "coffee" }
+]
