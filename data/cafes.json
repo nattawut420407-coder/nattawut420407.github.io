@@ -24,7 +24,7 @@
       {
         "category": "coffee",
         "items": [
-          { "id": "mi_001_01", "name": "Espresso", "price": 80, "isAvailable": true },
+          { "id": "mi_001_01", "name": "Espresso", "price": 85, "isAvailable": true },
           { "id": "mi_001_02", "name": "Americano", "price": 90, "isAvailable": true },
           { "id": "mi_001_03", "name": "Latte", "price": 110, "isAvailable": true },
           { "id": "mi_001_04", "name": "Cold Brew", "price": 120, "isAvailable": true }
